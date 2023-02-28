@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Libre+Baskerville&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100%;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+
+.navBarContainer{
+	height: 128px;
+}
+
+
+/* *******
+****	Nav Bar Top */
+
+.navBarTop{
+	display: flex;
+	height: 50%;
+	border-bottom: 1px solid #D5E0D5;
+}
+
+.navLogo{
+	display: flex;
+	align-items: center;
+	padding: 0 24px;
+}
+.navLogo img{
+	width: 82px;
+	height: 22.5px;
+}
+
+
+/* *********
+	Nav bar left side */
+
+.navBarTop .navLeft{
+	width: 50%;
+	display: flex;
+}
+.navBarTop .navLeft .navLeftOptions{
+	display: flex;
+}
+.navBarTop .navLeft .navLeftOptions .lis{
+	display: flex;
+	padding: 0 10px 0 0;
+	cursor: pointer;
+}
+.navBarTop .navLeft .navLeftOptions .lis p{
+	display: flex;
+	align-items: center;
+	padding: 10px 3px 10px 10px;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+}
+.navBarTop .navLeft .navLeftOptions .lis .arrow{
+	display: flex;
+	align-items: center;
+}
+.navBarTop .navLeft .navLeftOptions .lis .arrow img{
+	width: 12px;
+	height: 12px;
+}
+
+
+/* *********
+	Nav bar right side */
+
+.navBarTop .navRight{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 24px;
+}
+.navBarTop .navRight form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 320px;
+	height: 40px;
+	border: 2px solid rgb(229, 229, 229);
+	border-radius: 20px;
+}
+.navBarTop .navRight form input{
+	display: flex;
+	width: 200px;
+	height: 36px;
+	padding: 1px 35px 0 10px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+}
+.navBarTop .navRight form img{
+	width: 14px;
+	height: 14px;
+	margin-left: 6px;
+}
+.navBarTop .navRight form button{
+	width: 105.75px;
+	height: 36px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+	/* background-color: #FFFFFF; */
+}
+.navBarTop .navRight form button img{
+	width: 12px;
+	height: 12px;
+}
+.navBarTop .navRight a{
+	width: 79.33px;
+	height: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+	cursor: pointer;
+	color: black;
+}
+.navBarTop .navRight .signUpBtn{
+	width: 102.08px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	background-color: #108A00;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+}
+
+/* *******
+****	Nav Bar Bottom */
+
+.navBarBottom{
+	height: 50%;
+	padding: 10px 24px;
+}
+
+.navRightOptions{
+	display: flex;
+}
+.navRightOptions a{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	padding: 0 12px 0 0;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+}
+.navRightOptions a:hover{
+	text-decoration: underline;
+}
+.navRightOptions .moreBtn{
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+}
+.navRightOptions .moreBtn img{
+	width: 12px;
+	height: 12px;
+}
+.navRightOptions .moreBtn span{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+/* *******
+****	container inner ** content */
+
+.containerInner{
+	width: 100%;
+}
+.content{
+	margin: 0 120px;
+}
+
+/* *******
+*****	firstSection */
+
+.firstSection{
+	display: flex;
+}
+.firstSection .contentInner{
+	padding-right: 150px;
+}
+.firstSection .contentInnerimg img{
+	width: 450px;
+	height: 450px;
+}
+.firstSection .firstSectionTexts .firstSectionH1{
+	font-size: 59px;
+	margin-bottom: 15px;
+	color:#14A800 ;
+	font-family: 'Libre Baskerville', serif;
+}
+.firstSection .firstSectionTexts .firstSectionP{
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 35px;
+	color: #5E6D5A;
+}
+.firstSection .firstSectionTexts button{
+	width: 124px;
+	height: 33px;
+	border-radius: 20px;
+	border: none;
+	background-color:#14A800 ;
+	color: #fff;
+}
+.firstSection .firstSectionLogos{
+	margin-top: 57px;
+}
+.firstSection .firstSectionLogos .title{
+	margin-bottom: 4px;
+}
+.firstSection .firstSectionLogos .logos img{
+	margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
