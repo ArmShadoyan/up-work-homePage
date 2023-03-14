@@ -1,0 +1,352 @@
+
+@media screen and (max-width:1310px) {
+	.secondContentBlock .secondSection .cardsBlock .card{
+		height: 160px;
+	}
+	.secondContentBlock .secondSection .cardsBlock .card h2{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width:1080px) {
+	.navBarBottom,
+	.navBarTop .navLeft,
+	.navBarTop .navRight{
+		display: none;
+	}
+	.navBarTop{
+		justify-content: space-between;
+		height: 61px;
+	}
+	.navBarContainer{
+		height: auto;
+	}
+	.navBarTop{
+		padding: 10px 0;
+	}
+	.navBarPassive{
+		display: flex;	
+		justify-content: flex-end;
+	}
+	.passiveNavRight{
+		display: flex;
+		align-items: center;
+	}
+	.passiveNavRight button{
+		width: 100px;
+		height: 40px;
+		border: none;
+		border-radius: 20px;
+		margin-right: 10px;
+		font-size: 14px;
+		font-family: 'Inter', sans-serif;
+		background-color: #108A00;
+		color:#fff;
+	}
+	.navBarPassive .searchImgResp{
+		margin-right: 20px;
+	}
+	.navLogo .openMenu{
+		display: block;
+	}
+	
+
+			/* ***** */
+
+	.secondSection .secondSectionTexts{
+		height: 80%;
+	}
+
+				/* ***** */
+
+	.secondContentBlock .forthSection{
+		margin-top: 300px;
+	}
+	
+}
+
+
+
+@media screen and (max-width:1050px) {
+	.firstContentBlock .firstSection .firstSectionTexts .firstSectionH1{
+		font-size: 50px;
+	}
+
+		/* ***** */
+
+	.secondSectionSliderBlock{
+		width: 50%;
+	}
+	.secondSection .secondSectionTexts{
+		width: 50%;
+	}
+
+			/* ***** */
+
+	.secondContentBlock .forthSection .imgBlock{
+		width: 45%;
+	}
+	.secondContentBlock .forthSection .textsBlock{
+		width: 55%;
+	}
+
+
+}
+
+
+
+@media screen and (max-width:1033px) {
+	.thirdSection .categoryBlock .category{
+		width: 35%;
+	}
+}
+
+@media screen and (max-width:1115px) {
+	.secondContentBlock .thirdSection{
+		flex-direction: column;
+		
+	}
+	.secondContentBlock .thirdSection .leftBlock{
+		width: 100%;
+		border-radius: 7px 7px 0 0;
+	}
+	.secondContentBlock .thirdSection .rightBlock{
+		width: 100%;
+		border-radius: 0 0 7px 7px;
+	}
+	.secondContentBlock .thirdSection .leftBlock .peopleImage{
+		width: 175px;
+		height: 295px;
+		top: 505px;
+		left: 100%;
+	}
+}
+
+
+@media screen and (max-width:1000px) {
+	.secondContentBlock .secondSection .cardsBlock{
+		flex-direction: column;
+	}
+	.secondContentBlock .secondSection .cardsBlock .card{
+		width: 80%;
+	}
+	.secondContentBlock .secondSection{
+		background-image: url("/imgs/secondcontentblock/secondsection/miniimg.webp");
+	}
+
+	/* ***** */
+
+	.secondContentBlock .thirdSection .leftBlock .peopleImage{
+		top: 570px;
+	}
+}
+
+
+@media screen and (max-width:900px) {
+	.firstContentBlock .firstSection{
+		margin: 0 auto;
+	}
+	.firstContentBlock .firstSection .contentInner{
+		width: 75%;
+		height: 75%;
+	}
+
+			/* ***** */
+
+	.firstContentBlock .secondSection{
+		flex-direction: column;
+	}
+	.firstContentBlock .secondSectionSliderBlock{
+		justify-content: center;
+		width: 80%;
+	}
+	.firstContentBlock .secondSection .secondSectionTexts{
+		margin: 10px auto 80px;
+		width: 90%;
+	}
+
+				/* ***** */
+
+	.firstContentBlock .thirdSection .categoryBlock .category{
+		width: 45%;
+
+	}
+
+						/* ***** */
+	.secondContentBlock .forthSection .imgBlock img{
+		display: none;
+	}
+	.secondContentBlock .forthSection .imgBlock .minisize2_4{
+		display: block;
+	}
+
+	.secondContentBlock .forthSection{
+		flex-direction: column;
+	}
+	.secondContentBlock .forthSection .imgBlock{
+		width: 100%;
+	}
+	.secondContentBlock .forthSection .imgBlock img{
+		border-radius: 7px 7px 0 0;
+	}
+	.secondContentBlock .forthSection .textsBlock{
+		width: 100%;
+		border-radius:0 0 7px 7px;
+	}
+
+
+
+}
+
+@media screen and (max-width:840px) {
+	/* ***** */
+
+	.firstContentBlock .firstSection .contentInnerimg{
+		display: none;
+	}
+	.firstContentBlock .firstSection .contentInner{
+		width: 60%;
+	}
+
+	/* ***** */
+
+	.secondContentBlock .firstSection{
+		flex-direction: column-reverse;
+		height: auto;
+	}
+	.secondContentBlock .firstSection .minisize2_1{
+		display: block;
+		width: 100%;
+    	height: 100%;
+		border-radius: 7px 7px 0 0;
+	}
+	.secondContentBlock .firstSection img{
+		display: none;
+	}
+	.secondContentBlock .firstSection .textsBlock{
+		width: 80%;
+		height: 70%;
+		border-radius:0 0 7px 7px;
+		overflow: hidden;
+	}
+	.secondContentBlock .firstSection .imgBlock{
+		width: 80%;
+		height: 400px;
+		overflow: hidden;
+
+	}
+
+		/* ***** */
+
+		.secondContentBlock .thirdSection .leftBlock .peopleImage{
+			left: 110%;
+		}
+
+		/* ***** */
+
+		.secondContentBlock .forthSection .textsBlock .bottomBlock button{
+			width: 55%;
+		}
+	
+}
+@media screen and (max-width:680px) {
+	.secondContentBlock .thirdSection .leftBlock .peopleImage{
+		display: none;
+	}
+}
+@media screen and (max-width:675px) {
+	/* ***** */
+
+	.firstContentBlock .firstSection .contentInner{
+		width: 85%;
+		margin: 0 auto;
+	}
+	.firstContentBlock .firstSection{
+		margin: 0 25px;
+	}
+
+		/* ***** */
+
+	.secondContentBlock .firstSection .textsBlock {
+		width: 100%;
+	}
+	.secondContentBlock .firstSection .imgBlock {
+		width: 100%;
+	}
+	.secondContentBlock .firstSection .textsBlock h1{
+		font-size: 45px;
+	}
+				/* ***** */
+
+	.secondContentBlock .secondSection .titleBlock h2{
+		font-size: 42px;
+	}
+				/* ***** */
+
+	.secondContentBlock .thirdSection .leftBlock h2{
+		font-size: 40px;
+	}
+	.secondContentBlock .thirdSection .leftBlock .subTitleBlock .subTitle h3{
+		font-size: 25px;
+	}
+	.secondContentBlock .thirdSection .leftBlock .subTitleBlock p{
+		font-size: 14px;	
+	}
+	.secondContentBlock .thirdSection .rightBlock h3{
+		font-size: 30px;
+	}
+					/* ***** */
+
+	.secondContentBlock .thirdSection .leftBlock h2{
+		padding: 0;
+	}
+
+					/* ***** */
+
+	.secondContentBlock .forthSection .textsBlock .topBlock h1{
+		font-size: 45px;
+	}
+
+}
+@media screen and (max-width:480px) {
+	/* ***** */
+
+	.firstContentBlock .firstSection .firstSectionTexts .firstSectionH1{
+		font-size: 37px;
+	}
+	.firstContentBlock .firstSection .firstSectionTexts .firstSectionP{
+		font-size: 17px;
+	}
+	.firstContentBlock .firstSection .contentInner{
+		width: 85%;
+	}
+
+		/* ***** */
+
+	.firstContentBlock .secondSection .secondSectionTexts{
+		width: 90%;
+	}
+	.firstContentBlock .secondSection .secondSectionTexts .buttons{
+		flex-direction: column;
+		align-items: center;
+	}
+	.firstContentBlock .secondSection .secondSectionTexts .buttons .leftBtn{
+		margin-bottom:  10px;
+		width: 80%;
+	}
+	.firstContentBlock .secondSection .secondSectionTexts .buttons .rightBtn{
+		width: 80%;
+	}
+
+	/* ***** */
+
+	.firstContentBlock .thirdSection .categoryBlock .category{
+		width: 80%;
+	}
+
+		/* ***** */
+
+	.secondContentBlock .firstSection .textsBlock h1{
+		font-size: 35px;
+	}
+}

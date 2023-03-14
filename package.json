@@ -1,0 +1,25 @@
+{
+  "name": "up-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".",
+  "scripts": {
+    "start": "json-server db.json -p 8888 -w true",
+    "wpack": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmShadoyan/app_work.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArmShadoyan/app_work/issues"
+  },
+  "homepage": "https://github.com/ArmShadoyan/app_work#readme",
+  "devDependencies": {
+    "json-server": "^0.17.2",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  }
+}

@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*  *****
+	****    MENU */
+
+.menu{
+	font-family: 'Inter', sans-serif;
+	display: none;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	position: fixed;
+	top: 63px;
+	z-index: 16;
+	padding: 10px 20px 20px;
+	justify-content: space-between;
+}
+
+
+
+	/*  *****
+	****	FIND WORK	 */
+
+
+
+.menu .findWork{
+	display: flex;
+}
+.menu .findWork .block{
+	padding: 15px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.menu .findWork .block:hover{
+	background-color:rgb(213, 224, 213) ;
+}
+.menu .findWork .block h4{
+		font-size: 13px;
+		padding-bottom: 5px;
+}
+.menu .findWork .block p{
+		font-size: 11px;
+}
+
+
+
+	/*  *****
+	****	WHY UPWORK	 */
+
+
+
+.menu .whyUpwork{
+	width: 100%;
+	display: flex;
+}
+.menu .whyUpwork .leftBlock{
+	width: 50%;
+}
+.menu .whyUpwork .leftBlock .cards{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.menu .whyUpwork .leftBlock .cards .card{
+	width: 40%;
+	padding: 15px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.menu .whyUpwork .leftBlock .cards .top{
+	margin-bottom: 18px;
+}
+.menu .whyUpwork .leftBlock .cards .card:hover{
+	background-color:rgb(213, 224, 213) ;
+}
+.menu .whyUpwork .leftBlock .cards .card h4{
+		padding: 0 0 6px;
+		font-size: 14px;
+}
+.menu .whyUpwork .leftBlock .cards .card p{
+		font-size: 11px;
+}
+
+.menu .whyUpwork .rightBlock{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+}
+.menu .whyUpwork .rightBlock h4{
+	padding-bottom: 25px;
+	color: rgb(59, 59, 246);
+	font-size: 13px;
+}
+.menu .whyUpwork .rightBlock p{
+	font-size: 13px;
+}
+.menu .whyUpwork .rightBlock .bottom{
+	font-size: 11px;
+	text-decoration: underline;
+	color: green;
+}
+.menu .whyUpwork .rightBlock .top{
+	font-size: 13px;
+}
+
+.menu .whyUpwork .rightBlock .cards .card{
+	width: 50%;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border: 1px solid #e1dada;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.menu .whyUpwork .rightBlock .cards .card:hover{
+	background-color:rgb(213, 224, 213) ;
+}
+
+
+
+
+	/*  *****
+	****	FIND TALENT	 */
+
+
+
+.menu .findTalent{
+	width: 100%;
+	display: flex;
+}
+.menu .findTalent .leftBlock{
+	width: 30%;
+}
+.menu .findTalent .leftBlock .lists{
+	width: 100%;
+}
+.menu .findTalent .leftBlock .lists .list{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 15px;
+	cursor: pointer;
+}
+.menu .findTalent .leftBlock .list img{
+	width: 15px;
+	height: 15px;
+	color:rgb(6, 206, 6) ;
+}
+.menu .findTalent .leftBlock .list:hover{
+	background-color:rgb(213, 224, 213) ;
+}
+.menu .findTalent .leftBlock .list h4{
+	font-size: 13.5px;
+	margin-bottom: 5px;
+}
+.menu .findTalent .leftBlock .list p{
+	font-size: 12px;
+}
+
+
+
+.menu .findTalent .rightBlock{
+	width: 70%;
+	display: flex;
+}
+.menu .findTalent .rightBlock .textsBlock{
+	width: 30%;
+	margin-left: 7px;
+}
+.menu .findTalent .rightBlock .textsBlock h4{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.menu .findTalent .rightBlock .textsBlock sup{
+	font-size: 8px;
+}
+.menu .findTalent .rightBlock .textsBlock p{
+	font-size: 12px;
+	margin-bottom: 10px;
+	width: 70%;
+}
+.menu .findTalent .rightBlock .textsBlock .green{
+	color:rgb(6, 206, 6) ;
+	text-decoration: underline;
+}
+
+
+.menu .findTalent .rightBlock .listsBlock{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.menu .findTalent .rightBlock .listsBlock .hover{
+	font-size: 14px;
+	margin-bottom: 8px;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 8px;
+	
+}
+.menu .findTalent .rightBlock .listsBlock .hover:hover{
+	background-color:rgb(213, 224, 213) ;
+}
+
+.menu .findTalent .rightBlock .cardsBlock{
+	width: 85%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu .findTalent .rightBlock .cardsBlock .card{
+	width: 130px;
+	height: 150px;
+	border: 1px solid rgb(188, 185, 185);
+	border-radius: 12px;
+	padding-bottom: 30px;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+}
+.menu .findTalent .rightBlock .cardsBlock .card:hover{
+	background-color:rgb(213, 224, 213) ;
+}
+.menu .findTalent .rightBlock .cardsBlock .card img{
+	width: 100%;
+	object-fit: cover;
+	border-radius:12px 12px 0 0 ;
+}
+.menu .findTalent .rightBlock .cardsBlock .card p{
+	padding: 9px 0 0 7px;
+	font-size: 13px;
+}
+
+
+
+
+

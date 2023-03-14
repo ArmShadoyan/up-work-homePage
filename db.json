@@ -1,0 +1,346 @@
+{
+  "navBarContainer": [
+    {
+      "name":"imgs",
+      "openMenu":"imgs/navlogo/menu-hamburger-svgrepo-com.svg",
+      "closeMenu":"imgs/navlogo/close-x-svgrepo-com.svg",
+      "logo":"/imgs/navlogo/navlogo.jpg",
+      "arrow":"/imgs/navoptionarrows/down.png",
+      "search":"imgs/search/search.png"
+    },
+    {
+      "name":"options",
+      "navLeft":[
+                    "FindTalent",
+                    "FindWork",
+                    "WhyUpwork",
+                    "EnterPrise"
+                ],
+      "navRight":[
+                    "Talent",
+                    "Log In",
+                    "Sign Up"
+                 ],
+      "navBottom":[
+                    "Development & IT",
+                    "Design & Creative",
+                    "Sales & Marketing",
+                    "Writing & Translation",
+                    "Admin & Customer Support",
+                    "More"
+                  ]
+    }
+  ],
+
+  "firstContentBlock":[
+      {
+        "name":"firstSection",
+        "texts":[
+                   "How work should work",
+                   "Forget the old rules. You can have the best people.Right now. Right here.",
+                   "Get started",
+                   "Trusted by"
+                ],
+        "imgs":{
+                  "logo1":"/imgs/firstsection/microsoft.svg",
+                  "logo2":"/imgs/firstsection/airbnb.svg",
+                  "logo3":"/imgs/firstsection/bissell.svg",
+                  "bigImg":"imgs/firstsection/firstsectionimg.jpg"
+                }
+      },
+      {
+        "name":"secondSection",
+        "title":"Up your work game, it’s free.",
+        "slideImgs":[
+                      "/imgs/secondsection/slidephotos/firstslide.png"
+                    ],
+        "textBlocks":[
+                        {
+                          "className":"firstTextBlock",
+                          "name":"first",
+                          "logo":"imgs/secondsection/icons/edit.png",
+                          "title":"No cost to join.",
+                          "subtitle":"Register and browse professionals, explore projects, or even book a consultation."
+                        },
+                        {
+                          "className":"secondTextBlock",
+                          "name":"second",
+                          "logo":"imgs/secondsection/icons/thumbtacks.png",
+                          "title":"Post a job and hire top talent",
+                          "subtitle":"Finding talent doesn’t have to be a chore. Post a job or we can search for you!"
+                        },
+                        {
+                          "className":"thirdTextBlock",
+                          "name":"third",
+                          "logo":"imgs/secondsection/icons/star.png",
+                          "title":"Work with the best—without breaking the bank.",
+                          "subtitle":"Upwork makes it affordable to up your work and take advantage of low transaction rates."
+                        }
+                    ],
+          "buttons":[
+                        "Sign up for free",
+                        "Learn how to hire"
+                    ]
+      },
+      {
+        "name":"thirdSection",
+        "title":"Browse talent by category",
+        "subtitle":"Looking for work?",
+        "link":"Browse jobs",
+        "textBlocks":[
+                        { 
+                         
+                          "title":"Development & IT",
+                          "logo":"imgs/thirdsection/star.png",
+                          "rate":"4.85/5",
+                          "skills":"1853 skills"
+                        },
+                        {
+                          "title":"Design & Creative",
+                          "logo":"imgs/thirdsection/star.png",
+                          "rate":"4.91/5",
+                          "skills":"968 skills"
+                        },
+                        {
+                          "title":"Sales & Marketing",
+                          "logo":"imgs/thirdsection/star.png",
+                          "rate":"4.77/5",
+                          "skills":"392 skills"
+                        },
+                        {
+                          "title":"Writing & Translation",
+                          "logo":"imgs/thirdsection/star.png",
+                          "rate":"4.92/5",
+                          "skills":"505 skills"
+                        },
+                        {
+                          "title":"Admin & Customer Support",
+                          "logo":"imgs/thirdsection/star.png",
+                          "rate":"4.77/5",
+                          "skills":"508 skills"
+                        },
+                        {
+                          "title":"Finance & Accounting",
+                          "logo":"imgs/thirdsection/star.png",
+                          "rate":"4.79/5",
+                          "skills":"214 skills"
+                        },
+                        {
+                          "title":"Engineering & Architectu",
+                          "logo":"imgs/thirdsection/star.png",
+                          "rate":"4.85/5",
+                          "skills":"650 skills"
+                        },
+                        {
+                          "title":"Legal",
+                          "logo":"imgs/thirdsection/star.png",
+                          "rate":"4.85/5",
+                          "skills":"133 skills"
+                        }
+                    ]
+      }
+   ],
+
+   "secondContentBlock":[
+        {
+          "name":"firstSection",
+          "titles":[
+                    "Enterprise Suite",
+                    "This is how",
+                    "good companies",
+                    "Access the top 1% of talent on Upwork, and a full suite of hybrid workforce management tools. This is how innovation works now."
+                  ],
+          "blocks":[
+                  
+                    {
+                        "img":"imgs/secondcontentblock/firstsection/Skills.webp",
+                        "text":"Access expert talent to fill your skill gaps"
+                    },
+                    {
+                        "img":"imgs/secondcontentblock/firstsection/Briefcase.webp",
+                        "text":"Control your workflow: hire, classify and pay your talent"
+                    },
+                    {
+                        "img":"imgs/secondcontentblock/firstsection/Support.webp",
+                        "text":"Partner with Upwork for end-to-end support"
+                    }       
+          ],
+          "button":"Learn More",
+          "bigImgs":{
+                        "bigSize":"imgs/fourthsection/hxwn-enterprise-image@2x.webp",
+                        "miniSize":"imgs/secondcontentblock/firstsection/mini size.webp"
+                   }
+        },
+        {
+          "name":"secondSection",
+          "titles":[
+                      "For clients",
+                      {
+                        "firstLine":"Find talent",
+                        "secondLine":"your way"
+                      }
+                   ],
+          "text":"Work with the largest network of independent </br> professionals and get things done—from quick</br> turnarounds to big transformations.",
+          "blocks":[
+
+                    {
+                      "title":{
+                        "firstLine":"Post a job",
+                        "secondLine":"and hire a pro"
+                      },
+                      "subTitle":{
+                        "line":"Talent Marketplace",
+                        "sup":"ТМ"
+                      }
+                    },
+                    {
+                      "title":{
+                        "firstLine":"Browse and",
+                        "secondLine":"buy projects"
+                      },
+                      "subTitle":{
+                        "line":"Project catalog",
+                        "sup":"ТМ"
+                      }
+                    },
+                    {
+                      "title":{
+                        "firstLine":"let us help you find",
+                        "secondLine":"the right talent"
+                      },
+                      "subTitle":{
+                        "line":"Talent Scout",
+                        "sup":"ТМ"
+                      }
+                    }
+          ]
+          
+        },
+        {
+          "name":"thirdSection",
+         "leftSide":{
+            
+            "title":"Why businesses turn to Upwork",
+            "img":"https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_scale,w_357,h_694,q_auto,dpr_2.0/brontes/why-upwork/reaching-person@1x.png",
+            "blocks":[
+
+              {
+                "className":"firstSubTitle",
+                "img":"imgs/secondcontentblock/thirdsection/rating.png",
+                "title":"Proof of quality",
+                "subTitle":{
+                "firstLine":"Check any pro’s work samples, client reviews, and",
+                "secondLine":"identity verification."
+                }
+              },
+              {
+                "className":"secondSubTitle",
+                "img":"imgs/secondcontentblock/thirdsection/dollar.png",
+                "title":"No cost until you hire",
+                "subTitle":{
+                "firstLine":"Interview potential fits for your job, negotiate rates, and ",
+                "secondLine":"only pay for work you approve."
+                }
+              },
+              {
+                "className":"thirdSubTitle",
+                "img":"imgs/secondcontentblock/thirdsection/tick.png",
+                "title":"Safe and secure",
+                "subTitle":{
+                "firstLine":"Focus on your work knowing we help protect your data",
+                "secondLine":"and privacy. We’re here with 24/7 support if you need it."
+                }
+              }
+               
+            ]
+          },
+          "rightSide":{
+            "title":{
+              "firstLine":"We’re",
+              "secondLine":"the world’s work",
+              "thirdLine":"marketplace"
+            },
+            "blocks":[
+              {
+                "className":"firstWithIcon",
+                "imgClassName":"starSvg",
+                "img":"imgs/secondcontentblock/thirdsection/star.svg",
+                "title":"4.9/5",
+                "subTitle":"4.9/5"
+              },
+              {
+                "className":"secondWithIcon",
+                "img":"imgs/secondcontentblock/thirdsection/group.svg",
+                "title":"Award Winner",
+                "subTitle":"G2’s 2021 Best Software Awards"
+              }
+            ]  
+          }
+
+        },
+        {
+          "name":"forthSection",
+          "imgs":{
+                 "bigSize":"",
+                 "miniSize":""
+          },
+          "titles":[
+            "For talent",
+            "Find great work",
+            "Meet clients you’re excited to work with and take your career or business to new heights."
+          ],
+          "blocks":[
+            "Find opportunities for every stage of your freelance career",
+            "Control when, where, and how you work",
+            "Explore different ways to earn"
+          ],
+          "button":"Find opportunities"
+
+        },
+        {
+          "name":"fivethSection",
+          "title":"Trusted by leading brands and startups",
+          "firstSecondBlocks":[
+            {
+              "topBlock":{
+                "img":"/imgs/secondcontentblock/fivethsection/nasdaq-light (1).svg",
+                "topTitle":"“Upwork enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”",
+                "bottomTitle":"Josh Machiz, Chief Digital Officer"
+              },
+              "middleTitle":"results",
+              "bottomBlock":{
+                "leftTitles":[
+                  "Emmy Winning",
+                  "Facebook Watch program"
+                ],
+                "rightTitles":[
+                  "Millions",
+                  "of impressions generated per client per IPO"
+                ]
+              }
+            },
+            {
+              "topBlock":{
+                "img":"",
+                "topTitle":"",
+                "bottomTitle":""
+              },
+              "middleTitle":"results",
+              "bottomBlock":{
+                "leftTitles":[
+                  "",
+                  ""
+                ],
+                "rightTitles":[
+                  "",
+                  ""
+                ]
+              }
+            }
+          ]
+        }
+        
+
+   ]
+ 
+}

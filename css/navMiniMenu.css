@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*  *****
+	****	MINI MENU */
+
+
+	.miniMenu{
+		height: 93%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		background-color: rgb(255, 255, 255);
+		width: 100%;
+		transition: .3s;
+		transform: translateX(-100%);
+		position: absolute;
+		z-index: 10;
+		top: 61px;
+		font-family: 'Inter', sans-serif;
+	}
+	.miniMenu .lists{
+		display: flex;
+		flex-direction: column;
+		padding: 15px;
+	}
+	.miniMenu .list{
+		display: flex;
+		justify-content: space-between;
+		padding: 10px;
+	}
+	.miniMenu .list h4{
+		margin-bottom: 5px;
+	}
+	.miniMenu .list img{
+		transform: rotate(-90deg);
+	}
+	.miniMenu .lists .listMini {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 20px;
+		font-family: 'Inter', sans-serif;
+		font-size: 14px;
+		cursor: pointer;
+		/* rotate: a */
+	}
+	.miniMenu .lists .listMini .list:hover {
+		background-color:rgb(213, 224, 213) ;
+	}
+	.miniMenu .lists .listMini .title{
+		display: flex;
+		justify-content: space-between;
+	}
+	.miniMenu .lists .listMini img{
+		width: 13px;
+		height: 13px;
+		transition: .3s;
+	}
+	
+	.miniMenu .signUpBtnBottom{
+		border-top: 1px solid rgb(214, 210, 210);
+		width: 100%;
+		height: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+	
+	}
+	.miniMenu .signUpBtnBottom .btn{
+		width: 90%;
+		height: 50%;
+		border-radius: 20px;
+		font-family: 'Inter', sans-serif;
+		background-color: #108A00;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		cursor: pointer;
+		padding: 17px;
+	}
+	
+	
+	/*  *****
+		****	MINI MENU TOGGLE LISTS*/
+	
+	
+	
+	.miniMenu .lists .toggle .findWork .texts{
+		padding: 10px;
+	}
+	.miniMenu .lists .toggle .findWork .texts:hover{
+		background-color:rgb(213, 224, 213) ;
+	}
+	.miniMenu .lists .toggle .findWork{
+		padding: 10px;
+	}
+	.miniMenu .lists .toggle .findWork h4{
+		margin-bottom: 5px;
+	}
+	
+	
+	.miniMenu .lists .toggle .whyUpwork{
+		margin-bottom: 5px;
+		margin-top: 15px;
+	}
+	.miniMenu .lists .toggle .whyUpwork .top{
+		margin-bottom: 5px;
+	}
+	.miniMenu .lists .toggle .whyUpwork .card{
+		padding: 10px;	
+	}
+	.miniMenu .lists .toggle .whyUpwork .card:hover{
+		background-color:rgb(213, 224, 213) ;
+	}
+	.miniMenu .lists .toggle .whyUpwork h4{
+		margin-bottom: 4px;
+	}
+	.miniMenu .lists .toggle .whyUpwork p{
+		margin-bottom: 6px;
+	}
+	.miniMenu .lists .toggle .whyUpwork .leftBlock{
+		margin-bottom: 40px;
+	}
+	
+	.miniMenu .lists .toggle .whyUpwork .rightBlock{
+		margin-bottom: 15px;
+	}
+	.miniMenu .lists .toggle .whyUpwork .rightBlock .card{
+		width: 80%;
+		margin-bottom: 10px;
+		padding: 10px 15px;
+		border: 1px solid #e1dada;
+		border-radius: 15px;
+		cursor: pointer;
+	}
+	.miniMenu .lists .toggle .whyUpwork .rightBlock .card:hover{
+		background-color:rgb(213, 224, 213) ;
+	}
+	.miniMenu .lists .toggle .whyUpwork .rightBlock h4{
+		padding-bottom: 25px;
+		color: rgb(59, 59, 246);
+		font-size: 13px;
+	}
+	.miniMenu .lists .toggle .whyUpwork .rightBlock .bottom{
+		font-size: 11px;
+		text-decoration: underline;
+		color: green;
+	}
+	
+	
+	
+	/*  *****
+		**** MINI MENU 	FIND TALENT LISTS*/
+	
+	
+		.miniMenu .titleDiv{
+			display: flex;
+			padding: 15px;
+			border-bottom: 1px solid grey;
+			margin-bottom: 30px;
+		
+		}
+		.miniMenu .titleDiv img{
+			width: 19px;
+			height: 19px;
+			transform: rotate(90deg);
+			margin-right: 8px;
+			cursor: pointer;
+		}
+		
+	
+	
+	.findTalentFirstList{
+		justify-content: start;
+		padding: 10px;
+	}
+	.findTalentFirstList h4{
+		color: #fff;
+	}
+	.findTalentFirstList .listsBlock p{
+		padding: 10px;
+		cursor: pointer;
+	}
+	.findTalentFirstList .textsBlock{
+		display: flex;
+		flex-direction: column;
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.findTalentFirstList .textsBlock .green{
+		text-decoration: underline;
+		color: #108A00;
+	}
+	.findTalentFirstList .textsBlock p{
+		margin-bottom: 5px;
+	}
+	
+	
+	.findTalentFirstList .listsBlock .cardsBlock{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+	}
+	.findTalentFirstList .listsBlock .cardsBlock .card{
+		display: flex;
+		width: 100%;
+		height: 90px;
+		border: 1px solid rgb(188, 185, 185);
+		border-radius: 12px;
+		cursor: pointer;
+		margin-bottom: 10px;
+	}
+	.findTalentFirstList .listsBlock .cardsBlock .card img{
+		width: 100px;
+		object-fit: cover;
+	}
+	
