@@ -7,7 +7,7 @@
 
 
 .secondContentBlock .firstSection{
-	height: 590px;
+	height: 630px;
 	display: flex;
 	align-items: center;
 	width: 90%;
@@ -34,9 +34,9 @@
 	color: #fff;
 }
 .secondContentBlock .firstSection .textsBlock h1{
-	font-size: 56px;
+	font-size: 50px;
 	color: #fff;
-	font-family: 'Signika Negative', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 }
 .secondContentBlock .firstSection .textsBlock .blueText{
 	color: #90E5B3;
@@ -66,6 +66,7 @@
 	font-weight: 500;
 	color: #135954;
 	font-family: 'Inter', sans-serif;
+	cursor: pointer;
 }
 .secondContentBlock .firstSection .imgBlock{
 	display: flex;
@@ -114,9 +115,9 @@
 }
 .secondContentBlock .secondSection .titleBlock h2{
 	color: #fff;
-	font-size: 62px;
+	font-size: 55px;
 	margin: 0 0 30px;
-	font-family: 'Signika Negative', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 
 }
 .secondContentBlock .secondSection .textBlock p{
@@ -138,6 +139,12 @@
 	border-radius: 8px;
 	background-color: #14A800;
 	color: #fff;
+	cursor: pointer;
+}
+.secondContentBlock .secondSection .cardsBlock .card:hover{
+	color: #14A800;
+	background-color: #fff;
+	transition: .3s;
 }
 
 .secondContentBlock .secondSection .cardsBlock .card h2{
@@ -167,8 +174,9 @@
 	display: flex;
 }
 .secondContentBlock .thirdSection .leftBlock .subTitleBlock img{
-	width: 19px;
-	height: 19px;
+	width: 26px;
+	height: 26px;
+	margin-bottom: 10px;
 }
 .secondContentBlock .thirdSection .leftBlock .subTitleBlock .subTitle h3{
 	margin-left: 15px;
@@ -188,15 +196,18 @@
 
 .secondContentBlock .thirdSection .leftBlock h2{
 	font-size:50px ;
-	font-weight: 400;
+	font-weight: bold;
 	margin:30px 0 ;
 	padding:0 200px 0 0 ;
-	font-family: 'Signika Negative', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	color: #001E00;
 }
 .secondContentBlock .thirdSection .leftBlock h3{
 	font-size: 32px;
 	margin: 0 0 10px;
 	font-family: 'Inter', sans-serif;
+	color: #001E00;
+
 }
 .secondContentBlock .thirdSection .leftBlock .subTitleBlock p{
 	margin-left: 34px;
@@ -264,27 +275,31 @@
 ***		***** */
 
 .secondContentBlock .forthSection{
-	height: 650px;
 	display: flex;
 	align-items: center;
 	width: 90%;
-	margin: 200px auto;
+	margin: 50px auto;
+	
 }
 
 .secondContentBlock .forthSection .textsBlock{
 	background-color: #1F57C3;
 	color: #fff;
 	width: 45%;
-	height: 100%;
+	height: 640px;
 	border-radius: 0 7px 7px 0;
 }
 .secondContentBlock .forthSection .imgBlock{
+	display: flex;
+	align-items: center;
 	width:55% ;
 	height: 100%;
+	align-items: center;
 }
 .secondContentBlock .forthSection .imgBlock img{
-	height: 100%;
 	width: 100%;
+	min-height: 640px;
+	height: 569px;
 	border-radius: 7px 0 0 7px;
 	object-fit: cover;
 }
@@ -295,7 +310,7 @@
 	padding: 10px;
 }
 .secondContentBlock .forthSection .textsBlock .topBlock{
-	padding-bottom:80px ;
+	padding-bottom:50px ;
 }
 
 .secondContentBlock .forthSection .textsBlock .topBlock h3{
@@ -306,7 +321,7 @@
 .secondContentBlock .forthSection .textsBlock .topBlock h1{
 	margin-bottom: 30px;
 	font-size: 59px;
-	font-family: 'Signika Negative', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 }
 .secondContentBlock .forthSection .textsBlock .topBlock p{
 	margin-bottom: 40px;
@@ -331,7 +346,7 @@
 	width: 55%;
 	margin: 20px 20px 20px 0;
 	padding: 15px 29px;
-	border-radius: 20px;
+	border-radius: 25px;
 	font-size: 18px;
 	border: none;
 	color: #1F57C3;
@@ -345,12 +360,12 @@
 
 .secondContentBlock .fivethSection{
 	width: 90%;
-	height: 470px;
 	margin: 0 auto 80px;
+	position: relative;
 }
-.secondContentBlock .fivethSection .titleBlock{
-	font-size: 62px;
-	font-family: 'Signika Negative', sans-serif;
+.secondContentBlock .fivethSection .titleBlock h2{
+	font-size: 59px;
+	font-family:'Libre Baskerville', serif;
 }
 
 .secondContentBlock .fivethSection .sliderContainer{
@@ -358,7 +373,7 @@
 	display: flex;
 	align-items: center;
 	width: 100%;
-	height: 100%;
+	height: 500px;
 	/* border: 1px solid darkmagenta; */
 	overflow: hidden;
 }
@@ -375,7 +390,7 @@
 	height: 90%;
 	margin: 0 30px 0 0;
     width: 43vw;
-	/* border: 1px solid red; */
+	color: #fff;
 }
 .secondContentBlock .fivethSection .sliderContainer .arrows{
 	display: flex;
@@ -385,6 +400,9 @@
 	width: 100%;
 }
 .secondContentBlock .fivethSection .sliderContainer button{
+	display: flex;
+    align-items: center;
+    justify-content: center;
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
@@ -401,12 +419,16 @@
 	padding: 25px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	font-family: 'Inter', sans-serif;
+
 }
 .secondContentBlock .fivethSection .sliderContainer .first .topBlock img{
 	width: 170px;
 	height: 45px;
 	margin-bottom: 20px;
+}
+.secondContentBlock .fivethSection .sliderContainer .first .topBlock{
+	margin-bottom: 5px;
 }
 .secondContentBlock .fivethSection .sliderContainer .first .results{
 	font-size: 15px;
@@ -415,7 +437,8 @@
 }
 
 .secondContentBlock .fivethSection .sliderContainer .first .topBlock .top{
-	font-size: 24px;
+	width:96%;
+	font-size: 23px;
 	margin-bottom: 10px;
 }
 
@@ -485,6 +508,226 @@
 	align-items: center;
 	justify-content: flex-start;
 }
-.secondContentBlock .fivethSection .sliderContainer .third .logo{
 
+	/* ****
+	****	supportUkraine */
+
+.secondContentBlock .supportUkraineBlock{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	margin:0  auto 120px;
+	height: 250px;
+	border-radius: 7px;
+	background-color: #F7FAF7;
+}
+
+.secondContentBlock .supportUkraineBlock .textBlock{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 80%;
+	height: 100%;
+}
+.secondContentBlock .supportUkraineBlock .textBlock h2{
+	font-size: 36px;
+	font-family: 'Libre Baskerville', serif;
+}
+.secondContentBlock .supportUkraineBlock .textBlock p{
+	font-size: 18px;
+	color: rgb(159, 156, 156);
+	font-family: 'Inter', sans-serif;
+
+}
+.secondContentBlock .supportUkraineBlock .textBlock button{
+	height: 35px;
+	padding: 0 24px;
+	border-radius: 20px;
+	color: #14A800;
+	border: 1px solid #14A800;
+	background-color: #fff;
+	cursor: pointer;
+}
+.secondContentBlock .supportUkraineBlock .textBlock button:hover{
+	background-color:#F7FAF7 ;
+}
+.secondContentBlock .supportUkraineBlock .imgBlock{
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	height: 85%;
+}
+
+
+
+/* ****
+	****	rebrandSkillsBlock */
+
+.secondContentBlock .rebrandSkillsBlock{
+	display: flex;
+	width: 80%;
+	margin: 0 auto 120px;
+}
+.secondContentBlock .rebrandSkillsBlock .rightSide{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.secondContentBlock .rebrandSkillsBlock .list{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.secondContentBlock .rebrandSkillsBlock .filters p{
+	font-size: 37px;
+	margin-bottom: 15px;
+	font-family: 'Signika Negative', sans-serif;
+	cursor: pointer;
+	color: rgb(200, 198, 198);
+}
+.secondContentBlock .rebrandSkillsBlock .filters p:hover{
+	color: #14A800;
+	transition: .3s;
+}
+.secondContentBlock .rebrandSkillsBlock .leftList p,
+.secondContentBlock .rebrandSkillsBlock .rightList p{
+	font-size: 22px;
+	margin-bottom: 15px;
+	font-family: 'Inter', sans-serif;
+	color: rgb(136, 134, 134);
+	cursor: pointer;
+}
+.secondContentBlock .rebrandSkillsBlock .leftList p:hover,
+.secondContentBlock .rebrandSkillsBlock .rightList p:hover{
+	color: #14A800;
+}
+
+
+/* ***
+		FOOTER */
+
+
+.secondContentBlock .footer{
+	position: relative;
+	width: 90%;
+	margin: 0 auto 40px;
+	background-color: #025102;
+	border-radius: 15px;
+	color: #fff;
+	font-family: 'Inter', sans-serif;
+	padding: 96px 20;
+}
+.secondContentBlock .footer .topOptions{
+	display:flex;
+	justify-content: space-around;
+	padding-top: 30px;
+	
+}
+
+
+.secondContentBlock .footer .topOptions .title{
+	margin-bottom: 10px;
+}
+.secondContentBlock .footer .topOptions .link{
+	cursor: pointer;
+}
+.secondContentBlock .footer .topOptions .link:hover{
+	text-decoration: underline;
+}
+
+.secondContentBlock .footer .social{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:24px 30px 16px;
+	padding: 16px 20px;
+	border-bottom: 1px solid #fff;
+}
+.secondContentBlock .footer .social .leftSide{
+	display: flex;
+}
+.secondContentBlock .footer .social h4{
+	margin: auto 10px auto 0;
+}
+.secondContentBlock .footer .social .rightSide{
+	display: flex;
+}
+.secondContentBlock .footer .social img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 100%;
+}
+.secondContentBlock .footer .social img:hover{
+	background-color: #fff;
+	opacity: .7;
+}
+.secondContentBlock .footer .bottomOptions{
+	display: flex;
+
+}
+.secondContentBlock .footer .bottomOptions p{
+padding: 22px 14px;	
+cursor: pointer;
+}
+.secondContentBlock .footer .bottomOptions .item:hover{
+	text-decoration: underline;
+}
+
+
+/* ***
+		MINI FOOTER */
+
+
+
+.secondContentBlock .footer .toggleBtns{
+	padding: 20px;
+}
+.secondContentBlock .footer .toggleBtns .list{
+	padding: 20px;
+	display: flex;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+}
+.secondContentBlock .footer .minisizeTop{
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.secondContentBlock .footer .minisizeBottom{
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0 0 21px 0;
+}
+.secondContentBlock .footer .minisizeBottom p{
+	padding: 0;
+	margin: 0 0 5px 13px
+}
+.secondContentBlock .footer .toggleBtns .listMini{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	
+}	
+.secondContentBlock .footer .toggleBtns .titleDiv{
+	padding: 20px;
+	display: flex;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+	justify-content: space-between;
+}
+.secondContentBlock .footer .toggleBtns .titleDiv .link{
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.secondContentBlock .footer .toggleBtns .titleDiv .link:hover{
+	text-decoration: underline;
+}
+
+.secondContentBlock .footer .toggleBtns .titleDiv img{
+	width: 25px;
+	height: 25px;
+	color: #fff;
+	transition: .3s;
 }

@@ -36,7 +36,7 @@
       {
         "name":"firstSection",
         "texts":[
-                   "How work should work",
+                   "How work</br>should work",
                    "Forget the old rules. You can have the best people.Right now. Right here.",
                    "Get started",
                    "Trusted by"
@@ -52,7 +52,10 @@
         "name":"secondSection",
         "title":"Up your work game, it’s free.",
         "slideImgs":[
-                      "/imgs/secondsection/slidephotos/firstslide.png"
+                      "/imgs/secondsection/slidephotos/firstslide.png",
+                      "/imgs/secondsection/slidephotos/secondslide.png",
+                      "/imgs/secondsection/slidephotos/thirdslide.png",
+                      "/imgs/secondsection/slidephotos/forthslide.png"
                     ],
         "textBlocks":[
                         {
@@ -184,6 +187,7 @@
           "blocks":[
 
                     {
+                      "className":"firstCard",
                       "title":{
                         "firstLine":"Post a job",
                         "secondLine":"and hire a pro"
@@ -194,6 +198,7 @@
                       }
                     },
                     {
+                      "className":"secondCard",
                       "title":{
                         "firstLine":"Browse and",
                         "secondLine":"buy projects"
@@ -204,6 +209,7 @@
                       }
                     },
                     {
+                      "className":"thirdCard",
                       "title":{
                         "firstLine":"let us help you find",
                         "secondLine":"the right talent"
@@ -266,7 +272,7 @@
                 "imgClassName":"starSvg",
                 "img":"imgs/secondcontentblock/thirdsection/star.svg",
                 "title":"4.9/5",
-                "subTitle":"4.9/5"
+                "subTitle":"Clients rate professionals on Upwork"
               },
               {
                 "className":"secondWithIcon",
@@ -281,8 +287,8 @@
         {
           "name":"forthSection",
           "imgs":{
-                 "bigSize":"",
-                 "miniSize":""
+                 "bigSize":"imgs/secondcontentblock/forthseciton/find-great-work@1x.jpg",
+                 "miniSize":"imgs/secondcontentblock/forthseciton/minisize.jpg"
           },
           "titles":[
             "For talent",
@@ -297,11 +303,13 @@
           "button":"Find opportunities"
 
         },
+
         {
           "name":"fivethSection",
           "title":"Trusted by leading brands and startups",
           "firstSecondBlocks":[
             {
+              "className":["block","first"],
               "topBlock":{
                 "img":"/imgs/secondcontentblock/fivethsection/nasdaq-light (1).svg",
                 "topTitle":"“Upwork enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”",
@@ -320,24 +328,287 @@
               }
             },
             {
+              "className":["block","first", "second"],
               "topBlock":{
-                "img":"",
-                "topTitle":"",
-                "bottomTitle":""
+                "img":"/imgs/secondcontentblock/fivethsection/microsoft-lg-light.svg",
+                "topTitle":"“One of the advantages of utilizing freelancers is finding talent with different skills quickly as our needs change.”",
+                "bottomTitle":"Carol Taylor, Director of Content Experience"
               },
               "middleTitle":"results",
               "bottomBlock":{
                 "leftTitles":[
-                  "",
-                  ""
+                  "50% Faster",
+                  "launch of projects"
                 ],
                 "rightTitles":[
-                  "",
-                  ""
+                  "10,000",
+                  "projects completed"
                 ]
               }
             }
-          ]
+          ],
+          "thirdBlock":{
+            "title":"And many more",
+            "logos":[
+              "/imgs/secondcontentblock/fivethsection/logos/nasdaq-light (1).svg",
+              "/imgs/secondcontentblock/fivethsection/logos/automattic-light.svg",
+              "/imgs/secondcontentblock/fivethsection/logos/bissell-light.svg",
+              "/imgs/secondcontentblock/fivethsection/logos/coty-light.svg",
+              "/imgs/secondcontentblock/fivethsection/logos/rancher-v2-light.svg"
+            ]
+          }
+        },
+        {
+          "name":"supportUkraineBlock",
+          "title":"We support Ukraine",
+          "subtitle":"We are taking action to help our freelancers, our clients, and the people of Ukraine—and so can you",
+          "button":"Learn more",
+          "img":"/imgs/secondcontentblock/sixthsection/ukraine-help.svg"
+        },
+        {
+          "name":"rebrandSkillsBlock",
+          "filter":[
+              "Top skills",
+              "Trending skills",
+              "Top skills in US",
+              "Project CatalogTM"
+          ],
+          "topSkillsBlock":{
+            "name":"Top skills",
+            "leftList":[
+              "Data Entry Specialists",
+              "Video Editors",
+              "Data Analyst",
+              "Shopify Developer",
+              "Ruby on Rails Developer",
+              "Android Developer",
+              "Bookkeeper",
+              "Content Writer",
+              "Copywriter",
+              "Database Administrator",
+              "Data Scientist",
+              "Front-End Developer",
+              "Game Developer",
+              "Graphic Designer",
+              "iOS Developer",
+              "Java Developer"
+            ],
+            "rightList":[
+              "JavaScript Developer",
+              "Logo Designer",
+              "Mobile App Developer",
+              "PHP Developer",
+              "Python Developer",
+              "Resume Writer",
+              "SEO Expert",
+              "Social Media Manager",
+              "Software Developer",
+              "Software Engineer",
+              "Technical Writer",
+              "UI Designer",
+              "UX Designer",
+              "Virtual Assistant",
+              "Web Designer",
+              "Wordpress Developer"
+            ]
+          },
+          "TrendingSkillsBlock":{
+              "name":"Trending skills",
+              "leftList":[
+                "Blockchain",
+                "Go development",
+                "Node.js",
+                "Vue.js",
+                "HR consulting",
+                "Microsoft Power BI",
+                "Instructional design",
+                "React.js",
+                "Videographers",
+                "HTML5 Developers",
+                "Ghostwriters",
+                "Unity 3D Developers",
+                "Business Consultants",
+                "Coders",
+                "Marketing Consultants",
+                "Web Developers"
+              ],
+              "rightList":[
+                "Illustrators",
+                "Google AdWords Experts",
+                "Digital Marketers",
+                "Project Managers",
+                "Arduino Programmers",
+                "Ruby Developers",
+                "AngularJS Devleopers",
+                "Full Stack Developers",
+                "Email Marketing Consultants",
+                "React Native Developers",
+                "Swift Developers",
+                "CSS Developers",
+                "Google Sketchup Freelancers",
+                "Back End Developers",
+                "Smartsheet Freelancers",
+                "Zoom Video Conferencing Freela"
+              ]
+          },
+          "Top skills in US":{
+            "name":"Top skills in US",
+            "leftList":[
+              "Data Entry Specialists",
+              "Video Editors",
+              "Data Analyst",
+              "Shopify Developer",
+              "Ruby on Rails Developer",
+              "Android Developer",
+              "Bookkeeper",
+              "Content Writer",
+              "Copywriter",
+              "Database Administrator",
+              "Data Scientist",
+              "Front-End Developer",
+              "Game Developer",
+              "Graphic Designer",
+              "iOS Developer",
+              "Java Developer"
+            ],
+            "rightList":[
+              "JavaScript Developer",
+              "Logo Designer",
+              "Mobile App Developer",
+              "PHP Developer",
+              "Python Developer",
+              "Resume Writer",
+              "SEO Expert",
+              "Social Media Manager",
+              "Software Developer",
+              "Software Engineer",
+              "Technical Writer",
+              "UI Designer",
+              "UX Designer",
+              "Virtual Assistant",
+              "Web Designer",
+              "Wordpress Developer"
+            ]
+          },
+          "Project Catalog":{
+            "name":"Project CatalogTM",
+              "leftList":[
+                "Blockchain",
+                "Go development",
+                "Node.js",
+                "Vue.js",
+                "HR consulting",
+                "Microsoft Power BI",
+                "Instructional design",
+                "React.js",
+                "Videographers",
+                "HTML5 Developers",
+                "Ghostwriters",
+                "Unity 3D Developers",
+                "Business Consultants",
+                "Coders",
+                "Marketing Consultants",
+                "Web Developers"
+              ],
+              "rightList":[
+                "Illustrators",
+                "Google AdWords Experts",
+                "Digital Marketers",
+                "Project Managers",
+                "Arduino Programmers",
+                "Ruby Developers",
+                "AngularJS Devleopers",
+                "Full Stack Developers",
+                "Email Marketing Consultants",
+                "React Native Developers",
+                "Swift Developers",
+                "CSS Developers",
+                "Google Sketchup Freelancers",
+                "Back End Developers",
+                "Smartsheet Freelancers",
+                "Zoom Video Conferencing Freela"
+              ]
+          }
+        },
+        {
+          "name":"footer",
+          "topOptions":{
+            "titles":[
+              "For Clients",
+              "For Talent",
+              "Resources",
+              "Company"
+            ],
+            "firstBlock":[
+              "How to Hire",
+              "Talent Marketplace",
+              "Project Catalog",
+              "Talent Scout",
+              "Hire an Agency",
+              "Enterprise",
+              "Payroll Services",
+              "Direct Contracts",
+              "Hire Worldwide",
+              "Hire in the USA"
+              
+            ],
+            "secondBlock":[
+              "How to Find Work",
+              "Direct Contracts",
+              "Find Freelance Jobs Worldwide",
+              "Find Freelance Jobs in the USA"
+            ],
+            "thirdBlock":[
+              "Help & Support",
+              "Success Stories",
+              "Upwork Reviews",
+              "Resources",
+              "Blog",
+              "Community",
+              "Affiliate Program",
+              "Free Business tools"
+            ],
+            "forthBlock":[
+              "About Us",
+              "Leadership",
+              "Investor Relations",
+              "Careers",
+              "Our Impact",
+              "Press",
+              "Contact Us",
+              "Trust, Safety & Security",
+              "Modern Slavery Statement"
+            ]
+          },
+          "social":{
+            "leftSide":{
+              "title":"Follow Us",
+              "logos":[
+                "/imgs/footer/facebook-svgrepo-com.svg",
+                "/imgs/footer/linkedin-svgrepo-com.svg",
+                "/imgs/footer/twitter-bird-svgrepo-com.svg",
+                "/imgs/footer/youtube-svgrepo-com.svg",
+                "/imgs/footer/instagram-svgrepo-com.svg"
+              ]
+            },
+            "rightSide":{
+              "title":"Mobile app",
+              "logos":[
+                "/imgs/footer/apple-svgrepo-com.svg",
+                "/imgs/footer/android-svgrepo-com.svg"
+              ]
+            }
+          },
+          "bottomOptions":{
+            "title":"© 2015 - 2023 Upwork® Global Inc.",
+            "options":[
+              "Terms of Service",
+              "Privacy Policy",
+              "CA Notice at Collection",
+              "Cookie Settings",
+              "Accessibility"
+            ]
+          }
         }
         
 

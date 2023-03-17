@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Libre+Baskerville&family=Mukta:wght@200&family=Signika+Negative:wght@300;400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Libre+Baskerville&family=Mukta:wght@200&family=Roboto+Serif:wght@400;500&family=Signika+Negative:wght@300;400&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -152,6 +153,12 @@ body{
 	font-family: 'Inter', sans-serif;
 	/* background-color: #FFFFFF; */
 }
+.navBarTop .navRight form button:hover{
+	background-color:	rgb(229, 229, 229);
+}
+.navBarTop .navRight form:hover{
+	border: 2px solid rgb(207, 205, 205);
+}
 .navBarTop .navRight form button img{
 	width: 12px;
 	height: 12px;
@@ -169,6 +176,7 @@ body{
 	cursor: pointer;
 	color: black;
 }
+
 .navBarTop .navRight .signUpBtn{
 	width: 102.08px;
 	height: 40px;
@@ -181,7 +189,10 @@ body{
 	font-weight: 600;
 	font-family: 'Inter', sans-serif;
 }
-
+.navBarTop .navRight .signUpBtn:hover{
+	background-color: #15ad00;
+	transition: .3s;
+}
 /* *******
 ****	Nav Bar Bottom */
 
@@ -244,7 +255,7 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	padding: 80px 0;
-	width: 80%;
+	width: 90%;
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
@@ -255,7 +266,7 @@ body{
 }
 .firstContentBlock .firstSection .contentInnerimg {
 	height: 100%;
-	width: 50%;
+	width: 40%;
 }
 .firstContentBlock .firstSection .contentInnerimg img{
 	width: 100%;
@@ -283,6 +294,11 @@ body{
 	border: none;
 	background-color:#14A800 ;
 	color: #fff;
+	cursor: pointer;
+}
+.firstContentBlock .firstSection .firstSectionTexts button:hover{
+	background-color: #18be02;
+	transition: .3s;
 }
 .firstContentBlock .firstSection .firstSectionLogos{
 	margin-top: 57px;
@@ -302,10 +318,11 @@ body{
 	display: flex;
 	align-items: center;
 	margin: 0 auto 64px auto;
-	width: 80%;
+	width: 90%;
 	height: 100%;
 }
 .firstContentBlock .secondSectionSliderBlock{
+	position: relative;
 	height: 100%;
 	width: 40%;
 	display: flex;
@@ -316,6 +333,26 @@ body{
 	width: 100%;
 	height: 70%;
 }
+.firstContentBlock .secondSectionSliderBlock .slideLineBlock{
+	width: 100%;
+	height: 2px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+    bottom: 0;
+}
+.firstContentBlock .secondSectionSliderBlock .slideLine{
+    background-color: lightgray;
+    width: 23%;
+    height: 100%;
+    bottom: 0;
+}
+.firstContentBlock .secondSectionSliderBlock .slideLine .slideProgress{
+	height: 100%;
+    background-color: grey;
+    width: 0%;
+}
+
 
 .firstContentBlock .secondSection .secondSectionTexts{
 	margin-left: 20px;
@@ -363,6 +400,11 @@ body{
 	color: #fff;
 	border: none;
 	font-size: 16px;
+	cursor: pointer;
+}
+.firstContentBlock .secondSection .secondSectionTexts .buttons .leftBtn:hover{
+background-color: #18be02;
+transition: .3s;
 }
 .firstContentBlock .secondSection .secondSectionTexts .buttons .rightBtn{
 	width: 50%;
@@ -373,12 +415,13 @@ body{
 	color: #108A00;
 	background-color: #fff;
 	font-size: 16px;
+	cursor: pointer;
 }
 
 /* *******
 *****	Third Section */
 .firstContentBlock .thirdSection{
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 .firstContentBlock .thirdSection h1{
@@ -420,14 +463,18 @@ body{
     margin:30px auto 80px;
 }
 .firstContentBlock .thirdSection .categoryBlock .category{
-	width: 20%;
+	width: 22%;
     height: 140px;
     border-radius: 8px;
     padding: 20px;
     font-size: 23px;
     font-weight: 500;
     cursor: pointer;
-	background-color: #F2F7F2;
+	background-color: #f4f8f4;
+}
+.firstContentBlock .thirdSection .categoryBlock .category:hover{
+	background-color: #ebf0eb;
+	transition: .3s;
 }
 
 .firstContentBlock .thirdSection .categoryBlock .category h6{
@@ -438,6 +485,7 @@ body{
 }
 .firstContentBlock .thirdSection .categoryBlock .category span{
 	font-size: 14px;
+	padding-left: 4px; 
 }
 .firstContentBlock .thirdSection .categoryBlock .category img{
 	width: 11px;

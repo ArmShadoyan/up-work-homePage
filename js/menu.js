@@ -351,10 +351,8 @@ function toggleBtnsFunc(){
 
 	toggleBtns.forEach((btn,index) => {
 		btn.addEventListener("click",() => {
-			
 			if(index === 0){
 				if(btn.lastElementChild.className !== "findTalent"){
-					console.log(1)
 					btn.innerHTML += findTalentHtml();
 					findTalentBtnsFunc();
 					btn.firstElementChild.querySelector("img").style.transform = "rotate(180deg)";
